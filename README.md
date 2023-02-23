@@ -15,7 +15,7 @@ This project relies on four preparatory python files, and then does QA and initi
 
 1. n1_geturls.py
 
-This code iterates through the DOC website's ajax call to load html for each of the pages on the DOC reports webpage, extracting all URL values. It removes any URLs not to website pages rather than reports, and adds the base URL, and downloading a csv of all report links to downloads/reporturls.csv. 
+This code iterates through the DOC website's ajax call to load html for each of the pages on the DOC reports webpage, extracting all URL values. It removes any URLs not to website pages rather than reports, and adds the base URL, and downloads a csv of all report links to downloads/reporturls.csv. 
 
 2. n2_downloadfiles.py
 
