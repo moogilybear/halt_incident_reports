@@ -29,7 +29,7 @@ This code uses Tabula to scrape the Halt Incident Reports for each month into it
 
 This program cleans the data that was scraped from the PDFs came in very messy. Not all of the columns came in the right order, column names were imported as rows, and some of the columns came in as one column. It outputs 'data/final.csv.'
 
-5. n5_qa_describedata.ipynb
+5. n5_qa_describedata_.ipynb
 
 This Jupyter Notebook compares the original uncleaned dataframes and the final cleaned dataframe, ensuring no rows were dropped. It also compares the number of facilities in the final dataframe to a separate list of facilities from the DOC website (sourced here: https://doccs.ny.gov/system/files/documents/2022/09/facility-map-11-1-22.pdf). 
 
